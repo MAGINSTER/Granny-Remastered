@@ -1,0 +1,4300 @@
+{
+    "Hide": 0b,
+    "Fov": 90.0f,
+    "Morphs": [
+        {
+            "Expire": 300,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -16777216,
+                "Label": "",
+                "Name": "label",
+                "Offset": 138.25f
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.0f,
+                0.0f,
+                0.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                -10.0f
+            ]
+        },
+        {
+            "Expire": 300,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 0,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 60.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 1315860,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 2631720,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 4276545,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 5526610,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 6645093,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 7566195,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 8618883,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 9671314,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 10330015,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 11711155,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 12829637,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 13882324,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 15000804,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 15987699,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 186.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 15987699,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 15000804,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 13882324,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 12829637,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 11711155,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 10330015,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 9671314,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 8618883,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 7566195,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 6645093,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 5526610,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 4276545,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 2631720,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 1315860,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 1.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 11,
+                                "Animates": 1b,
+                                "Duration": 100
+                            },
+                            "CustomPose": {
+                                "Size": [
+                                    0.6f,
+                                    1.8f,
+                                    0.6f
+                                ],
+                                "Poses": {
+                                    "right_arm": {
+                                        "P": [
+                                            -6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_leg": {
+                                        "P": [
+                                            2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "outer": {
+                                        "P": [
+                                            0.0f,
+                                            4.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "body": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "bodywear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "head": {
+                                        "P": [
+                                            0.0f,
+                                            8.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "left_arm": {
+                                        "P": [
+                                            6.0f,
+                                            -2.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_leg": {
+                                        "P": [
+                                            -2.0f,
+                                            -12.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "right_legwear": {
+                                        "P": [
+                                            0.0f,
+                                            -6.0f,
+                                            0.0f
+                                        ]
+                                    },
+                                    "anchor": {
+                                        "P": [
+                                            0.0f,
+                                            -178.53125f,
+                                            0.0f
+                                        ],
+                                        "AB": 1b,
+                                        "C": 16777215
+                                    },
+                                    "left_armwear": {
+                                        "P": [
+                                            0.0f,
+                                            -4.0f,
+                                            0.0f
+                                        ]
+                                    }
+                                }
+                            },
+                            "BodyParts": [
+                                {
+                                    "T": [
+                                        0.0f,
+                                        -11.6875f,
+                                        0.0f
+                                    ],
+                                    "Limb": "anchor",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Lighting": 0b,
+                                        "Color": 0,
+                                        "Label": "Day 0",
+                                        "Name": "label",
+                                        "Offset": 246.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.fred"
+                        },
+                        "Duration": 60.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                10.0f,
+                10.0f,
+                10.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -3.03125f,
+                -10.0f
+            ]
+        }
+    ]
+}

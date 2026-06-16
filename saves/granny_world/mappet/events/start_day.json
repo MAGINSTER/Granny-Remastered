@@ -1,0 +1,226 @@
+{
+    "Main": "a8b49e99-cada-4dfa-8607-bf5651ad15bc",
+    "Nodes": [
+        {
+            "Type": "switch",
+            "Expression": "floor(random(0,2))",
+            "X": 33,
+            "Title": "",
+            "Y": -44,
+            "Relations": [
+                "edf1f90e-75dc-48c3-9c2b-4c648d54e70f",
+                "f4cf250f-7fba-44d7-a6d5-adb40e791a91"
+            ],
+            "Id": "88e2c65c-3d72-4c21-9953-a60f27bb8cd9"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon msr default -9 45 1",
+            "X": -148,
+            "Title": "1",
+            "Y": 63,
+            "Id": "edf1f90e-75dc-48c3-9c2b-4c648d54e70f"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp npc summon msr default 1 41 6",
+            "X": 195,
+            "Title": "2",
+            "Y": 63,
+            "Id": "f4cf250f-7fba-44d7-a6d5-adb40e791a91"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 1.0d,
+                            "Id": "players",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -13,
+            "Title": "players?",
+            "Y": -161,
+            "Relations": [
+                "aa06646c-5dcb-40d2-83c9-2488d141554e",
+                "9e9415b8-74b9-4062-8702-e0df6bc8004f"
+            ],
+            "Id": "79b60930-05c4-47a1-a379-c05e2ba5e4ad",
+            "Binary": 1b
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a black_reverb",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 2 @r[m=3]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 2 @r[m=3]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "tp @a 13 45 -7 -105 10",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "tp @r 18 41 -9 125 10",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard teams join surv @a[m=2]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard players set @a[team=surv] surv 1",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp npc despawn @e[mpid=msr]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:slowness 9999 2 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:weakness 9999 255 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a death 0",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a sprint 0",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a walk 0",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 123,
+            "CustomData": "",
+            "Title": "МУЛЬТИПЛЕЕР",
+            "Y": -215,
+            "Relations": [
+                "88e2c65c-3d72-4c21-9953-a60f27bb8cd9"
+            ],
+            "Id": "9e9415b8-74b9-4062-8702-e0df6bc8004f"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a black_reverb",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 2 @r[m=3]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "tp @a 13 45 -7 -105 10",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard teams join surv @a[m=2]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard players set @a[team=surv] surv 1",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp npc despawn @e[mpid=msr]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:slowness 9999 2 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:weakness 9999 255 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a death 0",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a sprint 0",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a walk 0",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -141,
+            "CustomData": "",
+            "Title": "ОДИНОЧКА",
+            "Y": -227,
+            "Relations": [
+                "88e2c65c-3d72-4c21-9953-a60f27bb8cd9"
+            ],
+            "Id": "aa06646c-5dcb-40d2-83c9-2488d141554e"
+        },
+        {
+            "Type": "timer",
+            "Timer": 290,
+            "X": -12,
+            "Title": "",
+            "Y": -306,
+            "Relations": [
+                "79b60930-05c4-47a1-a379-c05e2ba5e4ad"
+            ],
+            "Id": "a8b49e99-cada-4dfa-8607-bf5651ad15bc"
+        }
+    ]
+}

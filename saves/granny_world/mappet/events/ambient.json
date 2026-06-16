@@ -1,0 +1,42 @@
+{
+    "Main": "68796da7-7500-4e31-9fa5-7b5822c63e06",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 0,
+            "X": 230,
+            "Title": "",
+            "Y": 30,
+            "Relations": [
+                "6cc49f57-ea43-467f-b295-24350a6ade18",
+                "91644037-eef6-4a74-b9fb-2daf3f6cec90",
+                "707a6c3c-4969-4d3d-b6c0-143825bdbee1"
+            ],
+            "Id": "68796da7-7500-4e31-9fa5-7b5822c63e06"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound granny:amb3 ambient @a -5 36 10 0.5 1",
+            "X": -265,
+            "Title": "",
+            "Y": 234,
+            "Id": "707a6c3c-4969-4d3d-b6c0-143825bdbee1"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound granny:amb2 ambient @a 21 46 11 0.5 1",
+            "X": -240,
+            "Title": "",
+            "Y": -260,
+            "Id": "91644037-eef6-4a74-b9fb-2daf3f6cec90"
+        },
+        {
+            "Type": "command",
+            "Command": "/playsound granny:amb1 ambient @a 0 30 -3 1 1",
+            "X": -242,
+            "Title": "",
+            "Y": -38,
+            "Id": "6cc49f57-ea43-467f-b295-24350a6ade18"
+        }
+    ]
+}

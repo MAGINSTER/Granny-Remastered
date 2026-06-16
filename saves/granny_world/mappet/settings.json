@@ -1,0 +1,360 @@
+{
+    "Triggers": {
+        "player_item_toss": {
+            "Blocks": [
+                {
+                    "Script": "Player/Item.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "entity_death": {
+            "Blocks": [
+            ]
+        },
+        "player_journal": {
+            "Blocks": [
+            ]
+        },
+        "server_tick": {
+            "Blocks": [
+                {
+                    "Type": "event",
+                    "CustomData": "",
+                    "Frequency": 98,
+                    "Event": "ambient"
+                },
+                {
+                    "Type": "event",
+                    "CustomData": "",
+                    "Frequency": 300,
+                    "Event": "granny_ambient"
+                },
+                {
+                    "Type": "event",
+                    "CustomData": "",
+                    "Frequency": 1000,
+                    "Event": "ambient_master"
+                },
+                {
+                    "Type": "command",
+                    "Command": "/mp script exec @a Player/voice_lock.js",
+                    "Frequency": 1
+                },
+                {
+                    "Type": "command",
+                    "Command": "/mp script exec @a Player/sounds.js sprinting",
+                    "Frequency": 1
+                }
+            ]
+        },
+        "entity_damaged": {
+            "Blocks": [
+                {
+                    "Script": "Game/damage.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_lmb": {
+            "Blocks": [
+            ]
+        },
+        "block_click": {
+            "Blocks": [
+            ]
+        },
+        "block_interact": {
+            "Blocks": [
+                {
+                    "Script": "Player/Int_Item.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_logout": {
+            "Blocks": [
+            ]
+        },
+        "player_rmb": {
+            "Blocks": [
+            ]
+        },
+        "player_chat": {
+            "Blocks": [
+                {
+                    "Script": "Player/chat_lock.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_death": {
+            "Blocks": [
+                {
+                    "Type": "command",
+                    "Command": "/playsound mp.sounds:granny.granny.died ambient @a ~ ~ ~ 1 1",
+                    "Frequency": 1
+                },
+                {
+                    "Type": "command",
+                    "Command": "/mp npc despawn @e[mpid=trap,mpe=actived==1,r=0.5]",
+                    "Frequency": 1
+                },
+                {
+                    "Type": "command",
+                    "Command": "/mp hud close @s trap_exit",
+                    "Frequency": 1
+                },
+                {
+                    "Target": {
+                        "Target": 4,
+                        "Selector": ""
+                    },
+                    "Type": "state",
+                    "State": "death",
+                    "Mode": 1,
+                    "Value": 1.0d,
+                    "Frequency": 1
+                },
+                {
+                    "Target": {
+                        "Target": 4,
+                        "Selector": ""
+                    },
+                    "Type": "state",
+                    "State": "trap",
+                    "Mode": 1,
+                    "Value": 0.0d,
+                    "Frequency": 1
+                }
+            ]
+        },
+        "player_open_container": {
+            "Blocks": [
+            ]
+        },
+        "player_close_container": {
+            "Blocks": [
+            ]
+        },
+        "state_changed": {
+            "Blocks": [
+            ]
+        },
+        "server_load": {
+            "Blocks": [
+            ]
+        },
+        "player_respawn": {
+            "Blocks": [
+                {
+                    "Type": "command",
+                    "Command": "gamemode 3 @s",
+                    "Frequency": 1
+                },
+                {
+                    "Script": "Game/Players.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                },
+                {
+                    "Type": "command",
+                    "Command": "/tp @s 12 60 -7",
+                    "Frequency": 1
+                },
+                {
+                    "Type": "command",
+                    "Command": "tp @r[mpe=death==0]",
+                    "Frequency": 1
+                },
+                {
+                    "Script": "Game/Death.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "block_place": {
+            "Blocks": [
+                {
+                    "Script": "",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 1b,
+                    "Code": "//if (c.server.states.getNumber(\"game\") == 1)
+{
+    //c.cancel()
+}"
+                }
+            ]
+        },
+        "living_knockback": {
+            "Blocks": [
+            ]
+        },
+        "entity_attacked": {
+            "Blocks": [
+            ]
+        },
+        "living_equipment_change": {
+            "Blocks": [
+            ]
+        },
+        "player_login": {
+            "Blocks": [
+                {
+                    "Type": "command",
+                    "Command": "/tellraw @a [\"\",{\"text\":\"\\n\\n\\n\\n\\n\"},{\"text\":\"Discord Server Author\",\"color\":\"red\"},{\"text\":\" - \",\"color\":\"gray\"},{\"text\":\"~\\u041d\\u0410\\u0416\\u041c\\u0418~\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/fQA5mxaE2N\"}},{\"text\":\"\\n\"},{\"text\":\"You\",\"color\":\"white\"},{\"text\":\"Tube Author\",\"color\":\"red\"},{\"text\":\" - \",\"color\":\"gray\"},{\"text\":\"~\\u041d\\u0410\\u0416\\u041c\\u0418~\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/channel/UCMfqx_f_m3fmcNGv8VS6Cww\"}},{\"text\":\"\\n\\n\\n \"}]",
+                    "Frequency": 1
+                }
+            ]
+        },
+        "player_item_interact": {
+            "Blocks": [
+            ]
+        },
+        "projectile_impact": {
+            "Blocks": [
+            ]
+        },
+        "block_break": {
+            "Blocks": [
+            ]
+        },
+        "player_entity_interact": {
+            "Blocks": [
+                {
+                    "Script": "Player/Player_Interacted_Door.js",
+                    "Function": "",
+                    "Type": "script",
+                    "CustomData": "",
+                    "Frequency": 1,
+                    "Inline": 0b,
+                    "Code": ""
+                }
+            ]
+        },
+        "player_item_pickup": {
+            "Blocks": [
+            ]
+        }
+    },
+    "Hotkeys": {
+        "Hotkeys": [
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "lay.js",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 44,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "ui.js",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 37,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Script": "Player/Item.js",
+                            "Function": "",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 16,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            },
+            {
+                "Trigger": {
+                    "Blocks": [
+                        {
+                            "Type": "command",
+                            "Command": "mp npc summon /door",
+                            "Frequency": 1
+                        }
+                    ]
+                },
+                "Toggle": 0b,
+                "Keycode": 66,
+                "Enabled": {
+                    "Condition": {
+                    },
+                    "Mode": 1
+                }
+            }
+        ]
+    }
+}

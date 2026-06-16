@@ -1,0 +1,86 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 0b,
+            "States": {
+                "name": "textfield"
+            },
+            "PathDistance": 0.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+            },
+            "Damage": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "CanSwim": 0b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 1b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 0,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "",
+            "Speed": 0.0f,
+            "SightRadius": 120.0f,
+            "Health": 0.0f,
+            "Post": [
+            ],
+            "RegenDelay": 0,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 1,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "Main": "a94c2caf-3554-482a-a312-9fc03926117e",
+    "Nodes": [
+        {
+            "Type": "switch",
+            "Expression": "floor(random(0,5))",
+            "X": -8,
+            "Title": "",
+            "Y": -307,
+            "Relations": [
+                "7ca249b2-827a-4002-910d-9f5f5feafa87",
+                "365dfee7-1daa-4af5-a7e0-2066056cdcd0",
+                "c57d26f3-bb24-49fc-af6c-89e75a58133f",
+                "c4902b4c-3495-407f-b777-c7a4baad18af",
+                "6fa8e36b-c2b8-42a4-b760-0002df1d5eae"
+            ],
+            "Id": "a94c2caf-3554-482a-a312-9fc03926117e"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @e[mpid=msr] ~ ~ ~ /playsound mp.sounds:granny.scrip ambient @a ~ ~ ~ 0.4 1",
+            "X": -426,
+            "Title": "",
+            "Y": -570,
+            "Id": "7ca249b2-827a-4002-910d-9f5f5feafa87"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @e[mpid=msr] ~ ~ ~ /playsound mp.sounds:granny.scrip ambient @a ~ ~ ~ 0.4 1",
+            "X": -513,
+            "Title": "",
+            "Y": 12,
+            "Id": "c4902b4c-3495-407f-b777-c7a4baad18af"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @e[mpid=msr] ~ ~ ~ /playsound mp.sounds:granny.granny.iseeyou ambient @a ~ ~ ~ 0.4 1",
+            "X": -520,
+            "Title": "",
+            "Y": -169,
+            "Id": "c57d26f3-bb24-49fc-af6c-89e75a58133f"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @e[mpid=msr] ~ ~ ~ /playsound mp.sounds:granny.granny.wereareyou ambient @a ~ ~ ~ 0.4 1",
+            "X": -492,
+            "Title": "",
+            "Y": 192,
+            "Id": "6fa8e36b-c2b8-42a4-b760-0002df1d5eae"
+        },
+        {
+            "Type": "command",
+            "Command": "execute @e[mpid=msr] ~ ~ ~ /playsound mp.sounds:granny.granny.doyouweant ambient @a ~ ~ ~ 0.4 1",
+            "X": -492,
+            "Title": "",
+            "Y": -381,
+            "Id": "365dfee7-1daa-4af5-a7e0-2066056cdcd0"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Texture": "b.a:texturesGranny/Mask.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                5.0f,
+                4.5f,
+                3.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 704643072,
+                "Color": 10658466,
+                "Label": "Вылезти...",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.7f,
+                0.7f,
+                0.7f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -0.125f,
+                0.0f
+            ]
+        }
+    ]
+}

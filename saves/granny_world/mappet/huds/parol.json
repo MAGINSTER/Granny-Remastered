@@ -1,0 +1,35 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Rotate": [
+                90.00001f,
+                -0.0f,
+                114.0f
+            ],
+            "Ortho": 0b,
+            "Morph": {
+                "Name": "item",
+                "Stack": {
+                    "id": "granny:paperexit",
+                    "Count": 1b,
+                    "Damage": 0s
+                }
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                4.0f,
+                4.0f,
+                4.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.28125f,
+                1.0f,
+                0.0f
+            ]
+        }
+    ]
+}

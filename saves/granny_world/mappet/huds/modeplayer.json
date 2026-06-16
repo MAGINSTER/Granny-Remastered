@@ -1,0 +1,28 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 60,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -1828716544,
+                "Color": 0,
+                "Label": "[7Выбран: [6",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.34f,
+                0.34f,
+                0.34f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.5f,
+                0.59375f
+            ]
+        }
+    ]
+}

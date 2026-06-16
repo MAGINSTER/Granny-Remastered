@@ -1,0 +1,33 @@
+{
+    "Main": "40412bbf-bc48-41df-870f-a788d394628a",
+    "Nodes": [
+        {
+            "Type": "switch",
+            "Expression": "floor(random(0,2))",
+            "X": 6,
+            "Title": "",
+            "Y": -238,
+            "Relations": [
+                "6335d09e-9111-4dd0-a4a4-4c46be412587",
+                "a8aaf297-15e8-4fa7-9dcf-c0a959c301e8"
+            ],
+            "Id": "40412bbf-bc48-41df-870f-a788d394628a"
+        },
+        {
+            "Type": "command",
+            "Command": "/execute @s ~ ~ ~ /playsound granny:rnd1 master @s 0 100000 0 10000 1 1",
+            "X": -248,
+            "Title": "",
+            "Y": 22,
+            "Id": "6335d09e-9111-4dd0-a4a4-4c46be412587"
+        },
+        {
+            "Type": "command",
+            "Command": "/execute @s ~ ~ ~ /playsound granny:rnd2 master @s 0 100000 0 10000 1 1",
+            "X": 124,
+            "Title": "",
+            "Y": 34,
+            "Id": "a8aaf297-15e8-4fa7-9dcf-c0a959c301e8"
+        }
+    ]
+}

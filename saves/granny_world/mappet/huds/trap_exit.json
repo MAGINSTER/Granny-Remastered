@@ -1,0 +1,22 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 1845493760,
+                "Label": "[8{[7-------[8}",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.75f,
+                0.75f,
+                0.75f
+            ],
+            "OrthoX": 0.0f
+        }
+    ]
+}

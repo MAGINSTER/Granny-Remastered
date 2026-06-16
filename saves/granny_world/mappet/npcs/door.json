@@ -1,0 +1,127 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                    {
+                        "Script": "Door/Door.js",
+                        "Function": "tick",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                    {
+                        "Script": "Door/Door.js",
+                        "Function": "setup",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard teams join col @s",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Killable": 1b,
+            "CanFallDamage": 0b,
+            "States": {
+                "rot": 0.0d,
+                "lock": 0.0d,
+                "type": 1.0d,
+                "lock_set": 0.0d,
+                "switch": 0.0d
+            },
+            "PathDistance": 0.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Hitbox": {
+                    "Eye": 0.9f,
+                    "Sneak": 2.0f,
+                    "Enabled": 1b,
+                    "Height": 2.0f,
+                    "Width": 1.01f
+                },
+                "Materials": {
+                    "m_26dd18ea-83d1-bba5-fc6b-c8167c392b8f": "b.a:Doors/Door_Standart/door_room_close.png"
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.Doors/Door_Standart"
+            },
+            "Damage": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "CanSwim": 0b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 0.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 0,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "",
+            "Speed": 1.0f,
+            "SightRadius": 120.0f,
+            "Health": 0.0f,
+            "Post": [
+            ],
+            "RegenDelay": 0,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 1,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 0.0f
+        }
+    }
+}

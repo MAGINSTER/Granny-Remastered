@@ -1,0 +1,226 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 15,
+            "Ortho": 0b,
+            "Morph": {
+                "Loop": 1,
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Actions": {
+                                "idle": {
+                                    "Speed": 0.0f,
+                                    "Clamp": 0b,
+                                    "Fade": 0,
+                                    "Name": "idle"
+                                }
+                            },
+                            "Pose": {
+                                "Pose": {
+                                    "ArmRight2": {
+                                    },
+                                    "Head": {
+                                    },
+                                    "ArmLeft": {
+                                    },
+                                    "Dress": {
+                                    },
+                                    "ArmRight": {
+                                    },
+                                    "LegRight": {
+                                    },
+                                    "LegRight2": {
+                                    },
+                                    "LegLeft2": {
+                                    },
+                                    "BodyUp": {
+                                    },
+                                    "LegLeft": {
+                                    },
+                                    "Body": {
+                                    },
+                                    "ArmLeft2": {
+                                    },
+                                    "Granny": {
+                                    }
+                                }
+                            },
+                            "Skin": "c.s:Granny/skins/granny.png",
+                            "Scale": 1.5f,
+                            "BodyParts": [
+                                {
+                                    "R": [
+                                        0.0f,
+                                        180.0f,
+                                        0.0f
+                                    ]
+                                }
+                            ],
+                            "Name": "chameleon.Granny"
+                        },
+                        "Duration": 0.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 1b,
+                        "Morph": {
+                            "Actions": {
+                                "idle": {
+                                    "Speed": 0.0f,
+                                    "Clamp": 0b,
+                                    "Fade": 0,
+                                    "Name": "idle"
+                                }
+                            },
+                            "Pose": {
+                                "Pose": {
+                                    "ArmRight2": {
+                                    },
+                                    "Head": {
+                                    },
+                                    "ArmLeft": {
+                                    },
+                                    "Dress": {
+                                    },
+                                    "ArmRight": {
+                                        "RX": 2.2514749f,
+                                        "RY": -0.4712389f
+                                    },
+                                    "LegRight": {
+                                    },
+                                    "LegRight2": {
+                                    },
+                                    "LegLeft2": {
+                                    },
+                                    "BodyUp": {
+                                    },
+                                    "LegLeft": {
+                                    },
+                                    "Body": {
+                                        "RY": -0.06981317f
+                                    },
+                                    "ArmLeft2": {
+                                    },
+                                    "Granny": {
+                                    }
+                                }
+                            },
+                            "Transition": {
+                                "Interp": 10,
+                                "Animates": 1b
+                            },
+                            "Skin": "c.s:Granny/skins/granny.png",
+                            "Scale": 1.5f,
+                            "Name": "chameleon.Granny"
+                        },
+                        "Duration": 7.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 1b,
+                        "Morph": {
+                            "Actions": {
+                                "idle": {
+                                    "Speed": 0.0f,
+                                    "Clamp": 0b,
+                                    "Fade": 0,
+                                    "Name": "idle"
+                                }
+                            },
+                            "Pose": {
+                                "Pose": {
+                                    "ArmRight2": {
+                                    },
+                                    "Head": {
+                                    },
+                                    "ArmLeft": {
+                                    },
+                                    "Dress": {
+                                    },
+                                    "ArmRight": {
+                                        "RX": 1.1519173f,
+                                        "RY": 0.47123888f
+                                    },
+                                    "LegRight": {
+                                    },
+                                    "LegRight2": {
+                                    },
+                                    "LegLeft2": {
+                                    },
+                                    "BodyUp": {
+                                    },
+                                    "LegLeft": {
+                                    },
+                                    "Body": {
+                                        "RY": 0.06981317f
+                                    },
+                                    "ArmLeft2": {
+                                    },
+                                    "Granny": {
+                                        "G": 1.0f
+                                    }
+                                }
+                            },
+                            "Transition": {
+                                "Interp": 17,
+                                "Animates": 1b
+                            },
+                            "Skin": "c.s:Granny/skins/granny.png",
+                            "Scale": 1.5f,
+                            "Name": "chameleon.Granny"
+                        },
+                        "Duration": 5.0f,
+                        "EndPoint": 1b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                1.25f,
+                1.25f,
+                1.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                -3.25f,
+                -1.59375f
+            ]
+        },
+        {
+            "Expire": 15,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -16777216,
+                "Label": "",
+                "Name": "label",
+                "Offset": 138.25f
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                3.25f,
+                3.25f,
+                3.25f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.0f,
+                -2.21875f
+            ]
+        }
+    ]
+}

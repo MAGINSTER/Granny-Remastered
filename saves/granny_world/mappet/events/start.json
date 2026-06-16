@@ -1,0 +1,516 @@
+{
+    "Main": "9a70dc71-a30f-4fdf-9b5e-ce8188bdbaab",
+    "Nodes": [
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a black_reverb",
+                        "Frequency": 1
+                    },
+                    {
+                        "Script": "Game/Players.js",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 3 @a",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -139,
+            "CustomData": "",
+            "Title": "МУЛЬТИПЛЕЕР",
+            "Y": -345,
+            "Relations": [
+                "684f7f99-8593-4bed-ab94-c0d904a57033"
+            ],
+            "Id": "60b657d2-fc4c-4c2b-8842-162b5a5801e2"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -2 42 5 granny:doorclose 3",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock 7 42 7 granny:doorclose 5",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock 17 42 -2 granny:doorclose",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock 6 46 11 granny:doorclose",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -10 46 -5 granny:doorclose 3",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -83,
+            "CustomData": "",
+            "Title": "shkaf",
+            "Y": -750,
+            "Id": "847be9a0-3b05-4ad0-a6e2-f26768eceba6"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/title @a actionbar {\"text\":\"Замечен превышение игроков, выполняется рандомный кик\",\"color\":\"red\"}",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -308,
+            "CustomData": "",
+            "Title": "Начало",
+            "Y": -636,
+            "Id": "bee25779-91a2-4865-9bc1-4ba1c74ab835"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "game",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "day",
+                        "Mode": 1,
+                        "Value": 1.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "time",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "trap",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "elec",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a clear",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp npc summon msr default -9 45 1",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a day",
+                        "Frequency": 1
+                    },
+                    {
+                        "Script": "Game/Death.js",
+                        "Function": "hud",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp script exec @e[mpid=door] Door/Door.js reset",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:slowness 9999 1 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -6 38 11 granny:shitokoff 5",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock 18 38 11 granny:wooden0 2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -1 41 -1 granny:doorwood 3",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -1 42 -1 granny:codefalse 4",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -1 42 -2 granny:pickoff 4",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -2 42 -1 minecraft:barrier",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock -2 41 -1 granny:exitnopen 3",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:instant_health 1 10 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/setblock 23 33 14 granny:safeoff 5",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "start_day"
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/effect @a minecraft:weakness 9999 255 true",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 3 @a",
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "tab",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a sprint 0",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp state set @a walk 0",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -304,
+            "CustomData": "",
+            "Title": "ВМЕСТЕ",
+            "Y": -337,
+            "Id": "684f7f99-8593-4bed-ab94-c0d904a57033"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a modeplayer",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud morph @a modeplayer 0 {Background:-1828716544,Color:0,Label:\"[7Выбран: [6Совместный режим[6\",Name:\"label\"}",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -207,
+            "CustomData": "",
+            "Title": "",
+            "Y": -500,
+            "Relations": [
+                "6c38c7dd-36ff-48b3-89d5-9c1ea610662b"
+            ],
+            "Id": "5d8576dd-a14c-42e9-8754-ab63459da3e3"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a black_reverb",
+                        "Frequency": 1
+                    },
+                    {
+                        "Script": "Game/Players.js",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/gamemode 3 @a",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -467,
+            "CustomData": "",
+            "Title": "ОДИНОЧКА",
+            "Y": -342,
+            "Relations": [
+                "684f7f99-8593-4bed-ab94-c0d904a57033"
+            ],
+            "Id": "fe9d5511-4619-4bdc-891b-a61cdea974c2"
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": -556,
+            "Title": "",
+            "Y": -456,
+            "Relations": [
+                "fe9d5511-4619-4bdc-891b-a61cdea974c2"
+            ],
+            "Id": "d50f0dcf-5793-45ed-8535-2d49285c5549"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a dark",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @a 12 60 -7",
+                        "Frequency": 1
+                    },
+                    {
+                        "Script": "Game/Players.js",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp npc despawn @e[mpid=!door]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp script exec @r Game/Random_Spawn_Item.js",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "kill @e[type=item]",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "gamemode 3 @s",
+                        "Frequency": 1
+                    },
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "tab",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -311,
+            "CustomData": "",
+            "Title": "",
+            "Y": -770,
+            "Relations": [
+                "5223ebb3-8638-4e42-a7b9-4b42fb660afe",
+                "847be9a0-3b05-4ad0-a6e2-f26768eceba6"
+            ],
+            "Id": "9a70dc71-a30f-4fdf-9b5e-ce8188bdbaab"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 0,
+                            "Expression": "",
+                            "Value": 2.0d,
+                            "Id": "players",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -519,
+            "Title": "player < 2",
+            "Y": -650,
+            "Relations": [
+                "9d99a8f1-bbbb-4054-898e-bb3af6e4877c",
+                "12e8470a-5f03-4c90-bc2b-cb93ffe8da0d"
+            ],
+            "Id": "5223ebb3-8638-4e42-a7b9-4b42fb660afe",
+            "Binary": 1b
+        },
+        {
+            "Type": "timer",
+            "Timer": 60,
+            "X": -65,
+            "Title": "",
+            "Y": -463,
+            "Relations": [
+                "60b657d2-fc4c-4c2b-8842-162b5a5801e2"
+            ],
+            "Id": "6c38c7dd-36ff-48b3-89d5-9c1ea610662b"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a modeplayer",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud morph @a modeplayer 0 {Background:-1828716544,Color:0,Label:\"[7Выбран: [6Одиночный режим[6\",Name:\"label\"}",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -411,
+            "CustomData": "",
+            "Title": "",
+            "Y": -505,
+            "Relations": [
+                "d50f0dcf-5793-45ed-8535-2d49285c5549"
+            ],
+            "Id": "9d99a8f1-bbbb-4054-898e-bb3af6e4877c"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 2.0d,
+                            "Id": "players",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -115,
+            "Title": "player == 2",
+            "Y": -617,
+            "Relations": [
+                "5d8576dd-a14c-42e9-8754-ab63459da3e3",
+                "bee25779-91a2-4865-9bc1-4ba1c74ab835"
+            ],
+            "Id": "12e8470a-5f03-4c90-bc2b-cb93ffe8da0d",
+            "Binary": 1b
+        }
+    ]
+}

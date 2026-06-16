@@ -1,0 +1,57 @@
+{
+    "Main": "c2949669-304b-4bbd-91fd-ac18770dca9a",
+    "Nodes": [
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "event",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Event": "end"
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a gameover",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -56,
+            "CustomData": "",
+            "Title": "",
+            "Y": -13,
+            "Id": "54b5cc41-ca83-4778-baa4-93f65db84d15"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 4,
+                            "Expression": "",
+                            "Value": 5.0d,
+                            "Id": "day",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 54,
+            "Title": "",
+            "Y": -138,
+            "Relations": [
+                "54b5cc41-ca83-4778-baa4-93f65db84d15"
+            ],
+            "Id": "c2949669-304b-4bbd-91fd-ac18770dca9a"
+        }
+    ]
+}

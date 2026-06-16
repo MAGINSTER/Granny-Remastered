@@ -1,0 +1,29 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 60,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -1828716544,
+                "Max": 148,
+                "Color": 0,
+                "Label": "[7Вы попали в [6капкан.  [7Нажмите [6ПКМ[7, что бы выбраться.",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.5f,
+                0.5f,
+                0.5f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.0f
+            ]
+        }
+    ]
+}

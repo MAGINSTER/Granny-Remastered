@@ -1,0 +1,164 @@
+{
+    "Main": "86ec9a06-cc0c-4298-af5a-d0057b7e6af7",
+    "Nodes": [
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 5.0d,
+                            "Id": "day",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 288,
+            "Title": "",
+            "Y": -4,
+            "Relations": [
+                "2e8dc3f5-ec36-47d4-bb99-e70b5aa7bde4"
+            ],
+            "Id": "12eb63ae-a4a0-4298-a9ae-e3b5810902de"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 0,
+                            "Expression": "",
+                            "Value": 4.0d,
+                            "Id": "day",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": 72,
+            "Title": "",
+            "Y": -8,
+            "Relations": [
+                "1db1b20c-0b21-4f2e-97dd-f263ebead018"
+            ],
+            "Id": "8178692f-d0e5-47c7-ab69-2f2cfd4019f5"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a[team=surv] blood",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -208,
+            "CustomData": "",
+            "Title": "",
+            "Y": 102,
+            "Id": "7f4d95b4-1a39-411f-aa34-449d5a1c549d"
+        },
+        {
+            "Type": "comment",
+            "Message": {
+                "Color": 16777215,
+                "Text": ""
+            },
+            "X": 74,
+            "Title": "ПРОВЕРКА",
+            "Y": -148,
+            "Relations": [
+                "444fb5a5-1938-4214-ad13-9957419bdf26",
+                "12eb63ae-a4a0-4298-a9ae-e3b5810902de",
+                "8178692f-d0e5-47c7-ab69-2f2cfd4019f5"
+            ],
+            "Id": "86ec9a06-cc0c-4298-af5a-d0057b7e6af7"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a[team=surv] blood5day",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 360,
+            "CustomData": "",
+            "Title": "",
+            "Y": 128,
+            "Id": "2e8dc3f5-ec36-47d4-bb99-e70b5aa7bde4"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud close @a blood",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud close @a blood5day",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 74,
+            "CustomData": "",
+            "Title": "",
+            "Y": 160,
+            "Id": "1db1b20c-0b21-4f2e-97dd-f263ebead018"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 0,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 4.0d,
+                            "Id": "day",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -136,
+            "Title": "",
+            "Y": 2,
+            "Relations": [
+                "7f4d95b4-1a39-411f-aa34-449d5a1c549d"
+            ],
+            "Id": "444fb5a5-1938-4214-ad13-9957419bdf26"
+        }
+    ]
+}

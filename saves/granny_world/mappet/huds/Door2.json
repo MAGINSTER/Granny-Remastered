@@ -1,0 +1,22 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 70,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": 788529152,
+                "Label": "Нужно [6ввести пин-код",
+                "Name": "label"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.5f,
+                0.5f,
+                0.5f
+            ],
+            "OrthoX": 0.0f
+        }
+    ]
+}

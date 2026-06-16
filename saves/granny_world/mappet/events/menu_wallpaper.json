@@ -1,0 +1,272 @@
+{
+    "Main": "9bd6a61f-802c-492f-a635-da2e24657724",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 85,
+            "X": 74,
+            "Title": "cooldown",
+            "Y": 360,
+            "Relations": [
+                "282f458c-f477-452d-b303-9e2c17b64ab7"
+            ],
+            "Id": "2a5ea765-d4b9-41bf-94c7-97fffbc1b763"
+        },
+        {
+            "Type": "timer",
+            "Timer": 90,
+            "X": -204,
+            "Title": "cooldown",
+            "Y": 364,
+            "Relations": [
+                "259befa3-5187-4156-aca6-b5edc6021a98"
+            ],
+            "Id": "16b62f83-d51d-41b9-9ed4-20893455b313"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s 27 41.5 16 130 15",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 74,
+            "CustomData": "",
+            "Title": "2_menu",
+            "Y": -104,
+            "Relations": [
+                "52d3fbf2-7faa-468f-ae49-7110f3ad72cb"
+            ],
+            "Id": "97ce4f0c-c5a0-4d46-b9a5-a794f5978b8c"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s 18.5 33.8 17.9 130 10",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 78,
+            "CustomData": "",
+            "Title": "6_menu",
+            "Y": 208,
+            "Relations": [
+                "2a5ea765-d4b9-41bf-94c7-97fffbc1b763"
+            ],
+            "Id": "49046210-1b8b-4e5b-8326-a0ef7a0a7108"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s -0.7 45 -3.7 -45 25",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -200,
+            "CustomData": "",
+            "Title": "main_menu",
+            "Y": -102,
+            "Relations": [
+                "61d354b4-3986-4f3d-925b-d8d6dfdb449d"
+            ],
+            "Id": "9bd6a61f-802c-492f-a635-da2e24657724"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s 10 41 5 -150 5",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -58,
+            "CustomData": "",
+            "Title": "1_menu",
+            "Y": -106,
+            "Relations": [
+                "9cb60019-7a5d-4cd3-9207-1605c360c5b4"
+            ],
+            "Id": "f586ef93-248f-4fe9-8aec-e8bea398b7a8"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s 8.5 42.01 2.8 140 25",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -202,
+            "CustomData": "",
+            "Title": "4_menu",
+            "Y": 212,
+            "Relations": [
+                "16b62f83-d51d-41b9-9ed4-20893455b313"
+            ],
+            "Id": "4b540fb6-10bf-4e23-af50-9659bb4c7329"
+        },
+        {
+            "Type": "timer",
+            "Timer": 80,
+            "X": 226,
+            "Title": "cooldown",
+            "Y": 58,
+            "Relations": [
+                "4b540fb6-10bf-4e23-af50-9659bb4c7329"
+            ],
+            "Id": "0125a6ed-0725-4d66-9bff-0192656d509e"
+        },
+        {
+            "Type": "timer",
+            "Timer": 90,
+            "X": -203,
+            "Title": "cooldown",
+            "Y": 58,
+            "Relations": [
+                "f586ef93-248f-4fe9-8aec-e8bea398b7a8"
+            ],
+            "Id": "61d354b4-3986-4f3d-925b-d8d6dfdb449d"
+        },
+        {
+            "Type": "timer",
+            "Timer": 75,
+            "X": -60,
+            "Title": "cooldown",
+            "Y": 54,
+            "Relations": [
+                "97ce4f0c-c5a0-4d46-b9a5-a794f5978b8c"
+            ],
+            "Id": "9cb60019-7a5d-4cd3-9207-1605c360c5b4"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s 1.125 36.9 -4.56 -50 0",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": 222,
+            "CustomData": "",
+            "Title": "3_menu",
+            "Y": -104,
+            "Relations": [
+                "0125a6ed-0725-4d66-9bff-0192656d509e"
+            ],
+            "Id": "e71cee46-cfbf-4def-9ff7-0acffdf2ce97"
+        },
+        {
+            "Type": "command",
+            "Command": "/mp event trigger @s menu_wallpaper",
+            "X": 232,
+            "Title": "loop",
+            "Y": 220,
+            "Id": "282f458c-f477-452d-b303-9e2c17b64ab7"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @s black_reverb2",
+                        "Frequency": 1
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/tp @s -8.5 46.05 -7.7 -10 10",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Cancel": 0b,
+            "X": -62,
+            "CustomData": "",
+            "Title": "5_menu",
+            "Y": 216,
+            "Relations": [
+                "c337fa29-017e-4280-bf67-a5de006fe7ca"
+            ],
+            "Id": "259befa3-5187-4156-aca6-b5edc6021a98"
+        },
+        {
+            "Type": "timer",
+            "Timer": 85,
+            "X": 78,
+            "Title": "cooldown",
+            "Y": 56,
+            "Relations": [
+                "e71cee46-cfbf-4def-9ff7-0acffdf2ce97"
+            ],
+            "Id": "52d3fbf2-7faa-468f-ae49-7110f3ad72cb"
+        },
+        {
+            "Type": "timer",
+            "Timer": 75,
+            "X": -70,
+            "Title": "cooldown",
+            "Y": 358,
+            "Relations": [
+                "49046210-1b8b-4e5b-8326-a0ef7a0a7108"
+            ],
+            "Id": "c337fa29-017e-4280-bf67-a5de006fe7ca"
+        }
+    ]
+}

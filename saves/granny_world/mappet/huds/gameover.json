@@ -1,0 +1,159 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 300,
+            "Ortho": 0b,
+            "Morph": {
+                "Background": -16777216,
+                "Label": "",
+                "Name": "label",
+                "Offset": 138.25f
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                82.0f,
+                82.0f,
+                82.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                0.53125f,
+                -6.78125f
+            ]
+        },
+        {
+            "Expire": 250,
+            "Ortho": 0b,
+            "Morph": {
+                "List": [
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Animates": 1b
+                            },
+                            "BodyParts": [
+                                {
+                                    "R": [
+                                        180.0f,
+                                        4.0f,
+                                        -29.0f
+                                    ],
+                                    "S": [
+                                        0.0f,
+                                        0.0f,
+                                        0.0f
+                                    ],
+                                    "Limb": "head",
+                                    "Morph": {
+                                        "Background": -1023410176,
+                                        "Color": 10236928,
+                                        "Label": "Game Over",
+                                        "Name": "label",
+                                        "Offset": 309.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 10.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 12,
+                                "Animates": 1b,
+                                "Duration": 60
+                            },
+                            "BodyParts": [
+                                {
+                                    "S": [
+                                        1.75f,
+                                        1.75f,
+                                        1.75f
+                                    ],
+                                    "Limb": "head",
+                                    "Morph": {
+                                        "Background": -16777216,
+                                        "Color": 10236928,
+                                        "Label": "Game Over",
+                                        "Name": "label",
+                                        "Offset": 693.5f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 200.0f,
+                        "EndPoint": 0b
+                    },
+                    {
+                        "Random": 0.0f,
+                        "SetDuration": 0b,
+                        "Morph": {
+                            "Animation": {
+                                "Interp": 10,
+                                "Animates": 1b,
+                                "Duration": 40
+                            },
+                            "BodyParts": [
+                                {
+                                    "S": [
+                                        0.0f,
+                                        2.25f,
+                                        6.0f
+                                    ],
+                                    "Limb": "head",
+                                    "Morph": {
+                                        "Background": -1023410176,
+                                        "Color": 10236928,
+                                        "Label": "Game Over",
+                                        "Name": "label",
+                                        "Offset": 260.25f
+                                    }
+                                }
+                            ],
+                            "Settings": {
+                                "Hands": 1b
+                            },
+                            "Name": "blockbuster.empty"
+                        },
+                        "Duration": 40.0f,
+                        "EndPoint": 0b
+                    }
+                ],
+                "Name": "sequencer",
+                "Offset": [
+                    0.0f,
+                    0.0f,
+                    0.0f
+                ]
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                0.75f,
+                0.75f,
+                0.75f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.0f,
+                1.0f,
+                0.0f
+            ]
+        }
+    ]
+}

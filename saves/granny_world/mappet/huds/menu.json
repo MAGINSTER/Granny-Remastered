@@ -1,0 +1,42 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Color": 13442068,
+                "Label": "[8Granny[f:[r REMASTER",
+                "Name": "label"
+            },
+            "OrthoY": 0.92f,
+            "Scale": [
+                187.5f,
+                187.5f,
+                187.5f
+            ],
+            "OrthoX": 0.5f,
+            "Translate": [
+                0.0f,
+                0.0f,
+                1.375f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 1b,
+            "Morph": {
+                "Texture": "b.a:texturesGranny/cashe.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.5f,
+            "Scale": [
+                965.0f,
+                965.0f,
+                965.0f
+            ],
+            "OrthoX": 0.5f
+        }
+    ]
+}

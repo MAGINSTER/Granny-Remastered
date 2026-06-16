@@ -1,0 +1,300 @@
+{
+    "Main": "b6142df4-2c1a-4c46-ac93-e952a4f40e10",
+    "Nodes": [
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 1262,
+            "Title": "",
+            "Y": -257,
+            "Relations": [
+                "48168475-5609-47f0-8014-c4f037fd533a"
+            ],
+            "Id": "81a853b9-83fd-4699-8f2e-bae62321377f"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": -114,
+            "Title": "",
+            "Y": -152,
+            "Relations": [
+                "6f67620f-9b4b-46c2-b6fd-97a9874b7326"
+            ],
+            "Id": "60c292df-481f-48b1-8009-a89442937ad9"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 1016,
+            "Title": "",
+            "Y": -268,
+            "Relations": [
+                "8aa2f755-32f3-4e6f-b87f-eef5f51af150"
+            ],
+            "Id": "a80fcca8-4800-423d-b07c-30099acaf660"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 42,
+            "CustomData": "",
+            "Title": "",
+            "Y": 28,
+            "Relations": [
+                "8db453d4-f135-4fba-9666-48206b966821"
+            ],
+            "Id": "0cd097bb-ba45-449b-9adf-0e68574f2d05"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": -222,
+            "CustomData": "",
+            "Title": "",
+            "Y": 60,
+            "Relations": [
+                "60c292df-481f-48b1-8009-a89442937ad9"
+            ],
+            "Id": "8675f33d-6f0d-4277-8aca-a22cde2f5e71"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 312,
+            "CustomData": "",
+            "Title": "",
+            "Y": -12,
+            "Relations": [
+                "c3a113fb-2b6c-4a71-b0c8-6e5972acdd68"
+            ],
+            "Id": "38c099bf-51b9-4aa0-b30b-41677003d083"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 831,
+            "Title": "",
+            "Y": -300,
+            "Relations": [
+                "a3467a0f-aa1a-46f2-af39-72a6ffe10760"
+            ],
+            "Id": "0301101a-e0a7-48eb-bfdd-6b69d480a6e9"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 971,
+            "CustomData": "",
+            "Title": "",
+            "Y": 16,
+            "Relations": [
+                "81a853b9-83fd-4699-8f2e-bae62321377f"
+            ],
+            "Id": "8aa2f755-32f3-4e6f-b87f-eef5f51af150"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 304,
+            "Title": "",
+            "Y": -192,
+            "Relations": [
+                "38c099bf-51b9-4aa0-b30b-41677003d083"
+            ],
+            "Id": "0f2d4985-d11e-4974-bc54-ce2270be05a4"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": -220,
+            "Title": "",
+            "Y": -130,
+            "Relations": [
+                "8675f33d-6f0d-4277-8aca-a22cde2f5e71"
+            ],
+            "Id": "1168a056-2c66-4c8e-8c9b-ead15f2bbbd8"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 454,
+            "Title": "",
+            "Y": -230,
+            "Relations": [
+                "cb3669ad-e641-42d2-b296-f617232e4899"
+            ],
+            "Id": "c3a113fb-2b6c-4a71-b0c8-6e5972acdd68"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 618,
+            "Title": "",
+            "Y": -293,
+            "Relations": [
+                "97500f8f-3f64-4e26-97ab-7c1df43c906d"
+            ],
+            "Id": "9300c957-bf49-4c74-8d61-675003ef12e1"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": -112,
+            "CustomData": "",
+            "Title": "",
+            "Y": 36,
+            "Relations": [
+                "0c313854-8064-43c3-94ea-57e4ee65bd12"
+            ],
+            "Id": "6f67620f-9b4b-46c2-b6fd-97a9874b7326"
+        },
+        {
+            "Condition": {
+                "Condition": {
+                    "Blocks": [
+                        {
+                            "Not": 0b,
+                            "Target": 4,
+                            "Type": "state",
+                            "Or": 0b,
+                            "Comparison": 2,
+                            "Expression": "",
+                            "Value": 0.0d,
+                            "Id": "trap_exit",
+                            "Selector": ""
+                        }
+                    ]
+                },
+                "Mode": 1
+            },
+            "Type": "condition",
+            "X": -206,
+            "Title": "",
+            "Y": -312,
+            "Relations": [
+                "1168a056-2c66-4c8e-8c9b-ead15f2bbbd8"
+            ],
+            "Id": "b6142df4-2c1a-4c46-ac93-e952a4f40e10"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 178,
+            "CustomData": "",
+            "Title": "",
+            "Y": 2,
+            "Relations": [
+                "0f2d4985-d11e-4974-bc54-ce2270be05a4"
+            ],
+            "Id": "4a273b61-803d-4558-9bbe-65a9707ac297"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 1214,
+            "CustomData": "",
+            "Title": "",
+            "Y": -1,
+            "Id": "48168475-5609-47f0-8014-c4f037fd533a"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 604,
+            "CustomData": "",
+            "Title": "",
+            "Y": 15,
+            "Relations": [
+                "0301101a-e0a7-48eb-bfdd-6b69d480a6e9"
+            ],
+            "Id": "97500f8f-3f64-4e26-97ab-7c1df43c906d"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 24,
+            "Title": "",
+            "Y": -154,
+            "Relations": [
+                "0cd097bb-ba45-449b-9adf-0e68574f2d05"
+            ],
+            "Id": "0c313854-8064-43c3-94ea-57e4ee65bd12"
+        },
+        {
+            "Type": "timer",
+            "Timer": 20,
+            "X": 166,
+            "Title": "",
+            "Y": -190,
+            "Relations": [
+                "4a273b61-803d-4558-9bbe-65a9707ac297"
+            ],
+            "Id": "8db453d4-f135-4fba-9666-48206b966821"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 466,
+            "CustomData": "",
+            "Title": "",
+            "Y": -22,
+            "Relations": [
+                "9300c957-bf49-4c74-8d61-675003ef12e1"
+            ],
+            "Id": "cb3669ad-e641-42d2-b296-f617232e4899"
+        },
+        {
+            "Type": "trigger",
+            "Trigger": {
+                "Blocks": [
+                ]
+            },
+            "Cancel": 0b,
+            "X": 777,
+            "CustomData": "",
+            "Title": "",
+            "Y": -37,
+            "Relations": [
+                "a80fcca8-4800-423d-b07c-30099acaf660"
+            ],
+            "Id": "a3467a0f-aa1a-46f2-af39-72a6ffe10760"
+        }
+    ]
+}

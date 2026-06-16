@@ -1,0 +1,16 @@
+{
+    "game": 0.0d,
+    "players": 1.0d,
+    "pass_safe": "5831",
+    "go": 0.0d,
+    "pass_door": "4777",
+    "elec": 0.0d,
+    "trash": 0.0d,
+    "tab": 0.0d,
+    "top": 0.0d,
+    "players_alive": 0.0d,
+    "time": 2.0d,
+    "trap": 0.0d,
+    "floor": 2.0d,
+    "day": 0.0d
+}

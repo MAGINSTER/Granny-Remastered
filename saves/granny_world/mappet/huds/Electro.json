@@ -1,0 +1,55 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Pose": {
+                    "S": [
+                        0.5f,
+                        0.5f,
+                        0.5f
+                    ]
+                },
+                "Texture": "b.a:texturesGranny/state1.png",
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                6.0f,
+                6.0f,
+                6.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.96875f,
+                0.15625f,
+                0.0f
+            ]
+        },
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Lighting": 0b,
+                "Texture": "b.a:texturesGranny/state1.png",
+                "Shaded": 0b,
+                "Name": "blockbuster.image"
+            },
+            "OrthoY": 0.0f,
+            "Scale": [
+                3.0f,
+                3.0f,
+                3.0f
+            ],
+            "OrthoX": 0.0f,
+            "Translate": [
+                0.96875f,
+                0.15f,
+                0.0f
+            ]
+        }
+    ]
+}

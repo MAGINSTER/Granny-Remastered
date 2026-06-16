@@ -1,0 +1,128 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                    {
+                        "Script": "AI/Trap.js",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                    {
+                        "Script": "",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 1b,
+                        "Code": "//c.subject.setPosition(Math.floor(c.subject.getPosition().x)+0.500, c.subject.getPosition().y, Math.floor(c.subject.getPosition().z)+0.500)
+c.subject.setRotations(90, 0, 0)"
+                    },
+                    {
+                        "Type": "command",
+                        "Command": "/scoreboard teams join col @s",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 0b,
+            "States": {
+                "actived": 0.0d
+            },
+            "PathDistance": 0.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Materials": {
+                    "m_7c1288e7-d625-3025-fc5d-28f01c023d0a": "b.a:capcain/open/texture.png"
+                },
+                "Settings": {
+                    "Hands": 1b
+                },
+                "Name": "blockbuster.capcain/open"
+            },
+            "Damage": 0.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                    {
+                        "Script": "AI/Trap.js",
+                        "Function": "trap_int",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": "var open = mappet.createMorph(\"{Hitbox:{Eye:0.9f,Sneak:1.65f,Enabled:1b,Height:0.5f,Width:0.25f},BodyParts:[{T:[0.0f,-0.375f,0.0f],Limb:\\\"head\\\",Morph:{Name:\\\"item\\\",Stack:{id:\\\"littletiles:multitiles\\\",Count:1b,tag:{tiles:[{boxes:[[I;2,0,6,5,1,7],[I;3,1,6,4,5,7]],tile:{color:-65281,block:\\\"littletiles:ltcoloredblock\\\"}},{bBox:[I;3,5,6,4,6,7],tile:{color:-8847105,block:\\\"littletiles:ltcoloredblock\\\"}}],min:[I;2,0,6],size:[I;3,6,1],grid:8,count:3},Damage:0s}}}],Settings:{Hands:1b},Name:\\\"blockbuster.empty\\\"}\")
+
+c.subject.setMorph(open)"
+                    }
+                ]
+            },
+            "CanSwim": 0b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 0b,
+            "Respawn": 0b,
+            "Immovable": 1b,
+            "MaxHealth": 0.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                ]
+            },
+            "PatrolTriggers": [
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 0.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 0b,
+            "Id": "",
+            "PatrolCirculate": 0b,
+            "DamageDelay": 0,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 0b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                ]
+            },
+            "Faction": "",
+            "Speed": 0.0f,
+            "SightRadius": 120.0f,
+            "Health": 0.0f,
+            "Post": [
+            ],
+            "RegenDelay": 0,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 1,
+            "HasPost": 0b,
+            "Patrol": [
+            ],
+            "PostRadius": 0.0f
+        }
+    }
+}

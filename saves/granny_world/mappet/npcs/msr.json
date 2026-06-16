@@ -1,0 +1,284 @@
+{
+    "States": {
+        "default": {
+            "RespawnSaveUUID": 0b,
+            "TriggerRespawn": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/execute @e[mpid=msr] ~ ~ ~ /particle largesmoke ~ ~ ~ 1 1 1 1 750 normal",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "TriggerTick": {
+                "Blocks": [
+                    {
+                        "Script": "AI/AI.js",
+                        "Function": "idle",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 10,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Script": "AI/AI.js",
+                        "Function": "getfloor",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Script": "AI/AI.js",
+                        "Function": "time_floor",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 20,
+                        "Inline": 0b,
+                        "Code": ""
+                    },
+                    {
+                        "Script": "AI/AI.js",
+                        "Function": "electro",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 100,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "StateName": "",
+            "TriggerInitialize": {
+                "Blocks": [
+                    {
+                        "Target": {
+                            "Target": 0,
+                            "Selector": ""
+                        },
+                        "Type": "state",
+                        "State": "time",
+                        "Mode": 1,
+                        "Value": 0.0d,
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Killable": 0b,
+            "CanFallDamage": 0b,
+            "States": {
+            },
+            "PathDistance": 32.0f,
+            "Follow": "",
+            "Xp": 0,
+            "Morph": {
+                "Actions": {
+                    "idle": {
+                        "Speed": 0.5f,
+                        "Name": "idle"
+                    }
+                },
+                "Skin": "c.s:Granny/skins/granny.png",
+                "Scale": 0.78f,
+                "BodyParts": [
+                    {
+                        "R": [
+                            0.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.12f,
+                            0.07f,
+                            0.1f
+                        ],
+                        "T": [
+                            0.129f,
+                            0.285f,
+                            -0.195f
+                        ],
+                        "Limb": "Head",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "blockbuster:green",
+                                "Count": 1b,
+                                "Damage": 6s
+                            }
+                        }
+                    },
+                    {
+                        "R": [
+                            0.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.12f,
+                            0.07f,
+                            0.1f
+                        ],
+                        "T": [
+                            -0.121f,
+                            0.285f,
+                            -0.195f
+                        ],
+                        "Limb": "Head",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "blockbuster:green",
+                                "Count": 1b,
+                                "Damage": 6s
+                            }
+                        }
+                    },
+                    {
+                        "R": [
+                            0.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.07f,
+                            0.07f,
+                            0.001f
+                        ],
+                        "T": [
+                            0.101f,
+                            0.287f,
+                            -0.26f
+                        ],
+                        "Limb": "Head",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "blockbuster:green",
+                                "Count": 1b,
+                                "Damage": 6s
+                            }
+                        }
+                    },
+                    {
+                        "R": [
+                            0.0f,
+                            180.0f,
+                            0.0f
+                        ],
+                        "S": [
+                            0.07f,
+                            0.07f,
+                            0.001f
+                        ],
+                        "T": [
+                            -0.095f,
+                            0.287f,
+                            -0.26f
+                        ],
+                        "Limb": "Head",
+                        "Morph": {
+                            "Name": "item",
+                            "Stack": {
+                                "id": "blockbuster:green",
+                                "Count": 1b,
+                                "Damage": 6s
+                            }
+                        }
+                    }
+                ],
+                "Name": "chameleon.Granny"
+            },
+            "Damage": 9999.0f,
+            "TriggerInteract": {
+                "Blocks": [
+                ]
+            },
+            "CanSwim": 0b,
+            "Flee": 4.0f,
+            "LookAtPlayer": 1b,
+            "Respawn": 0b,
+            "Immovable": 0b,
+            "MaxHealth": 20.0f,
+            "TriggerDamaged": {
+                "Blocks": [
+                    {
+                        "Script": "",
+                        "Function": "",
+                        "Type": "script",
+                        "CustomData": "",
+                        "Frequency": 1,
+                        "Inline": 0b,
+                        "Code": ""
+                    }
+                ]
+            },
+            "PatrolTriggers": [
+                {
+                    "Blocks": [
+                        {
+                            "Script": "AI/AI.js",
+                            "Function": "patrole",
+                            "Type": "script",
+                            "CustomData": "",
+                            "Frequency": 1,
+                            "Inline": 0b,
+                            "Code": ""
+                        }
+                    ]
+                }
+            ],
+            "CanRanged": 0b,
+            "Drops": [
+            ],
+            "Fallback": 16.0f,
+            "CanPickUpLoot": 0b,
+            "Unique": 1b,
+            "Id": "",
+            "PatrolCirculate": 1b,
+            "DamageDelay": 60,
+            "CanGetBurned": 0b,
+            "Wander": 0b,
+            "RespawnOnCoordinates": 0b,
+            "LookAround": 1b,
+            "RespawnPosY": 0.0d,
+            "RespawnDelay": 0,
+            "RespawnPosX": 0.0d,
+            "SightDistance": 25.0f,
+            "RespawnPosZ": 0.0d,
+            "Invincible": 1b,
+            "TriggerDied": {
+                "Blocks": [
+                    {
+                        "Type": "command",
+                        "Command": "/mp hud setup @a text",
+                        "Frequency": 1
+                    }
+                ]
+            },
+            "Faction": "bot",
+            "Speed": 2.4f,
+            "SightRadius": 120.0f,
+            "Health": 20.0f,
+            "Post": [
+            ],
+            "RegenDelay": 80,
+            "TriggerTarget": {
+                "Blocks": [
+                ]
+            },
+            "RegenFrequency": 20,
+            "HasPost": 0b,
+            "Patrol": [
+                [
+                    14,
+                    45,
+                    -8
+                ]
+            ],
+            "PostRadius": 1.0f
+        }
+    }
+}

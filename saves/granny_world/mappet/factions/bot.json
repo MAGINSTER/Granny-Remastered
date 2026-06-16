@@ -1,0 +1,37 @@
+{
+    "Color": 16777215,
+    "Visible": {
+        "Condition": {
+        },
+        "Mode": 1
+    },
+    "Title": "",
+    "DefaultScore": 500,
+    "OthersAttitude": "FRIENDLY",
+    "Relations": {
+        "msr1": "AGGRESSIVE"
+    },
+    "PlayerAttitude": "AGGRESSIVE",
+    "OwnRelation": {
+        "Thresholds": [
+            {
+                "Score": 100,
+                "Attitude": "AGGRESSIVE",
+                "Color": 15606306,
+                "Title": "Hostile"
+            },
+            {
+                "Score": 200,
+                "Attitude": "PASSIVE",
+                "Color": 11184810,
+                "Title": "Neutral"
+            },
+            {
+                "Score": 1000,
+                "Attitude": "FRIENDLY",
+                "Color": 2289186,
+                "Title": "Friendly"
+            }
+        ]
+    }
+}

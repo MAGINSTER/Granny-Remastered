@@ -1,0 +1,35 @@
+{
+    "Main": "5967a731-6c2f-4dbb-b261-3bd302c8cfc5",
+    "Nodes": [
+        {
+            "Type": "command",
+            "Command": "/mp event trigger @s main_menu_music",
+            "X": -10,
+            "Title": "loop",
+            "Y": 80,
+            "Id": "4336062f-affe-4279-9371-2ef3c0d82abf"
+        },
+        {
+            "Type": "command",
+            "Command": "/execute @s ~ ~ ~ /playsound mp.sounds:granny.mainmenu.mainmenu master @s 0 100000 0 10000 1 1",
+            "X": -8,
+            "Title": "music",
+            "Y": -116,
+            "Relations": [
+                "7a4dbd74-5c06-41b4-a978-a9cbd0d6b8b0"
+            ],
+            "Id": "5967a731-6c2f-4dbb-b261-3bd302c8cfc5"
+        },
+        {
+            "Type": "timer",
+            "Timer": 1200,
+            "X": -11,
+            "Title": "while",
+            "Y": -17,
+            "Relations": [
+                "4336062f-affe-4279-9371-2ef3c0d82abf"
+            ],
+            "Id": "7a4dbd74-5c06-41b4-a978-a9cbd0d6b8b0"
+        }
+    ]
+}

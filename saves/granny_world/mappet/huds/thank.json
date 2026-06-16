@@ -1,0 +1,22 @@
+{
+    "Hide": 0b,
+    "Fov": 70.0f,
+    "Morphs": [
+        {
+            "Expire": 0,
+            "Ortho": 0b,
+            "Morph": {
+                "Max": 126,
+                "Label": "",
+                "AnchorY": 0.6f,
+                "ShadowY": 5.0f,
+                "ShadowX": 5.0f,
+                "AnchorX": 0.6f,
+                "Name": "label",
+                "Offset": 6.5f
+            },
+            "OrthoY": 0.0f,
+            "OrthoX": 0.0f
+        }
+    ]
+}
