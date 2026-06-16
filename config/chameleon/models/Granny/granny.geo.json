@@ -1,0 +1,130 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.granny",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4.5,
+				"visible_bounds_offset": [0, 1.75, 0]
+			},
+			"bones": [
+				{
+					"name": "Granny",
+					"pivot": [0, 4.25, 0]
+				},
+				{
+					"name": "Body",
+					"parent": "Granny",
+					"pivot": [0, 4.25, 0],
+					"cubes": [
+						{"origin": [-4.75, 15.6, -3.4], "size": [9.5, 7.4, 6.8], "pivot": [0, 4.25, 0], "rotation": [0, -2.5, 0], "uv": [0, 36]},
+						{"origin": [-2.5, 32.85, -2.4], "size": [5, 1.4, 4.8], "uv": [24, 0]}
+					]
+				},
+				{
+					"name": "Dress",
+					"parent": "Body",
+					"pivot": [0, 15.75, 3],
+					"cubes": [
+						{"origin": [-4.75, 8.25, -3.4], "size": [9.5, 7.4, 6.8], "pivot": [0, 4.25, 0], "rotation": [0, -2.5, 0], "uv": [30, 42]}
+					]
+				},
+				{
+					"name": "BodyUp",
+					"parent": "Body",
+					"pivot": [0, 22.75, 0],
+					"cubes": [
+						{"origin": [-4.5, 22.85, -3.4], "size": [9, 10.4, 6.8], "uv": [26, 26]},
+						{"origin": [-5.5, 27.6, -2], "size": [11, 5.4, 4.8], "uv": [48, 0]}
+					]
+				},
+				{
+					"name": "Head",
+					"parent": "BodyUp",
+					"pivot": [0, 34.25, 0],
+					"cubes": [
+						{"origin": [-4.05, 34.25, -3.9], "size": [8, 8, 8], "uv": [24, 8]},
+						{"origin": [-4.3, 34.25, -4.15], "size": [8.5, 8.25, 8.5], "uv": [96, 112]},
+						{"origin": [-4.75, 37.25, -1.5], "size": [1, 2, 0], "pivot": [0, 1.25, 0], "rotation": [0, 27.5, 0], "uv": [39, 89]},
+						{"origin": [3.575, 37.25, -1.5], "size": [1, 2, 0], "pivot": [0, 1.25, 0], "rotation": [0, -27.5, 0], "uv": [39, 89], "mirror": true},
+						{"origin": [-4.05, 26.25, -3.9], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "ArmLeft",
+					"parent": "BodyUp",
+					"pivot": [5, 33.25, 0],
+					"rotation": [0, 0, -7.5],
+					"cubes": [
+						{"origin": [4.56947, 24.25856, -1.7], "size": [3.8, 8, 4], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "ArmLeft2",
+					"parent": "ArmLeft",
+					"pivot": [6.5, 24.25, 2],
+					"cubes": [
+						{"origin": [4.56947, 16.25856, -1.7], "size": [3.8, 8, 4], "uv": [56, 26]},
+						{"origin": [3.42526, 15.302, -1.7], "size": [3.3, 2, 4], "pivot": [0, 4.25, 0], "rotation": [0, 0, 7.5], "uv": [18, 24]}
+					]
+				},
+				{
+					"name": "ArmRight",
+					"parent": "BodyUp",
+					"pivot": [-5, 33.25, 0],
+					"rotation": [0, 0, 7.5],
+					"cubes": [
+						{"origin": [-8.36947, 24.25856, -1.7], "size": [3.8, 8, 4], "uv": [58, 9]}
+					]
+				},
+				{
+					"name": "ArmRight2",
+					"parent": "ArmRight",
+					"pivot": [-6.5, 24.25, 2],
+					"cubes": [
+						{"origin": [-8.36947, 16.25856, -1.7], "size": [3.8, 8, 4], "uv": [0, 60]},
+						{"origin": [-5.32526, 14.402, -1.7], "size": [3.05, 3, 4], "pivot": [0, -5.75, 0], "rotation": [0, 0, -7.5], "uv": [54, 38]},
+						{"origin": [-7.86947, 13.85856, 3.3], "size": [2.8, 2.8, 1], "uv": [0, 0]},
+						{"origin": [-7.36947, 14.25856, -7.7], "size": [1.8, 2, 12], "uv": [44, 12]},
+						{"origin": [-7.86947, 13.85856, -16.7], "size": [2.8, 2.8, 14], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "LegLeft",
+					"parent": "Granny",
+					"pivot": [2.25, 15.75, 0],
+					"cubes": [
+						{"origin": [0.075, 7.725, -2.65], "size": [4.5, 7.9, 4.8], "uv": [32, 55]}
+					]
+				},
+				{
+					"name": "LegLeft2",
+					"parent": "LegLeft",
+					"pivot": [3, 7.75, -2],
+					"cubes": [
+						{"origin": [0.075, -0.15, -2.65], "size": [4.5, 7.9, 4.8], "uv": [16, 51]}
+					]
+				},
+				{
+					"name": "LegRight",
+					"parent": "Granny",
+					"pivot": [-2, 16, 0],
+					"cubes": [
+						{"origin": [-4.475, 7.725, -2.65], "size": [4.5, 7.9, 4.8], "uv": [48, 55]}
+					]
+				},
+				{
+					"name": "LegRight2",
+					"parent": "LegRight",
+					"pivot": [-2, 7.75, -2],
+					"cubes": [
+						{"origin": [-4.475, -0.15, -2.65], "size": [4.5, 7.9, 4.8], "uv": [0, 49]}
+					]
+				}
+			]
+		}
+	]
+}
